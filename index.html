@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Public+Sans:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sunstone Eduversity</title>
+  </head>
+
+  <body class="">
+    <div
+      class="sticky z-30 top-0 h-[100px] px-[15px] text-[14px] leading-[100px] whitespace-nowrap bg-white"
+    >
+      <nav id="desktop-nav" class="page-container flex items-center">
+        <a class="flex items-center lg:w-[125px] lg:h-[25px]">
+          <img
+            src="https://sunstone.edu.in/assets/images/logo-sunstone.webp"
+            class="w-full"
+          />
+        </a>
+        <ul class="flex gap-x-[20px] px-[30px]">
+          <li class="relative">
+            <a href="#" id="explore" class="flex items-center">
+              <span>Explore Programs</span>
+              <span class="material-icons">expand_more</span>
+            </a>
+            <ul
+              id="popup"
+              class="absolute bg-white leading-[40px] p-[10px] top-[74px] left-0 rounded-[12px] w-[240px] text-[#22366a]"
+            >
+              <li
+                id="mba"
+                class="flex items-center justify-between hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+              >
+                <a>MBA</a><span class="material-icons"> navigate_next </span>
+                <ul
+                  id="mba-popup"
+                  class="absolute top-0 left-[225px] w-[260px] bg-white rounded-[12px] p-[10px] py-[9px] px-[14px] cursor-pointer"
+                >
+                  <li class="font-bold px-[10px]">Specializations</li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Finance
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Marketing
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in BFSI
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Logistics
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Retail
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Sales Management
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Business Analytics
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Human Resource
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Digital Marketing
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    MBA in Operations
+                  </li>
+                  <li
+                    class="font-bold flex items-center justify-between hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    <a>About the course</a>
+                    <span class="material-icons"> arrow_forward </span>
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="pgdm"
+                class="flex items-center justify-between hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+              >
+                <a>PGDM</a>
+                <span class="material-icons"> navigate_next </span>
+
+                <ul
+                  id="pgdm-popup"
+                  class="absolute top-0 left-[225px] w-[260px] bg-white rounded-[12px] p-[10px] py-[9px] px-[14px] cursor-pointer"
+                >
+                  <li class="font-bold px-[10px]">Specializations</li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Finance
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Marketing
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in BFSI
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Logistics
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Retail
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Sales Management
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Business Analytics
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Human Resource
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Digital Marketing
+                  </li>
+                  <li
+                    class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    PGDM in Operations
+                  </li>
+                  <li
+                    class="font-bold flex items-center justify-between hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+                  >
+                    <a>About the course</a>
+                    <span class="material-icons"> arrow_forward </span>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="px-[10px] hover:bg-orange-200 cursor-pointer rounded-[10px]"
+              >
+                <a>BBA</a>
+              </li>
+              <li
+                class="px-[10px] hover:bg-orange-200 cursor-pointer rounded-[10px]"
+              >
+                <a>MCA</a>
+              </li>
+              <li
+                class="px-[10px] hover:bg-orange-200 cursor-pointer rounded-[10px]"
+              >
+                <a>Global Immersion with BBA</a>
+              </li>
+              <li
+                class="px-[10px] hover:bg-orange-200 cursor-pointer rounded-[10px]"
+              >
+                <a>Global Immersion with MBA</a>
+              </li>
+              <li
+                class="flex items-center justify-between hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+              >
+                <a>Online MBA</a>
+                <span class="material-icons"> navigate_next </span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" id="campus" class="flex items-center">
+              <span>Campuses</span>
+              <span class="material-icons"> expand_more </span>
+            </a>
+
+            <!-- <ul
+            id="campus-popup"
+            class="absolute top-0 left-[225px] w-[260px] bg-white rounded-[12px] p-[10px] py-[9px] px-[14px] cursor-pointer"
+          >
+            <li class="font-bold px-[10px]">Showing by location</li>
+            <li
+              class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+            >
+              Greater Noida
+            </li>
+            <li
+              class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+            >
+            Jaipur
+            </li>
+            <li
+              class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+            >
+              Pune
+            </li>
+            <li
+              class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+            >
+              Indore
+            </li>
+            <li
+              class="hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+            >
+              Bangalore
+            </li>
+            
+            <li
+              class="font-bold flex items-center justify-between hover:bg-orange-200 cursor-pointer px-[10px] rounded-[10px]"
+            >
+              <a>View All Campuses</a>
+              <span class="material-icons"> arrow_forward </span>
+            </li>
+          </ul> -->
+          </li>
+          <li>
+            <a href="#" class="flex items-center">
+              <span>Admissions</span>
+              <span class="material-icons"> expand_more </span></a
+            >
+          </li>
+          <li><a href="#">Placement</a></li>
+          <li><a href="#">Hire from Sunstone</a></li>
+          <li>
+            <a href="#" class="flex items-center">
+              <span>About Sunstone</span>
+              <span class="material-icons"> expand_more </span></a
+            >
+          </li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <div class="mx-8">
+          <span class="font-semibold">Login</span>
+        </div>
+        <div class="">
+          <a class="px-[20px] py-[10px] bg-[#22366a] text-white">Apply Now</a>
+        </div>
+      </nav>
+
+
+    <!-- mobile nav -->
+
+      <nav id="mobile-nav">
+        
+      </nav>
+    </div>
+
+    <div class="">
+      <div class="relative">
+        <img
+          src="https://sunstone.edu.in/assets/images/admission_bg.jpg"
+          alt=""
+        />
+        <div id="ready-and-apply-sec" class="page-container">
+          <div class="absolute bottom-[180px] px-[15px]">
+            <p class="text-white text-[32px] leading-[31px] font-black">
+              ready to be a
+            </p>
+            <p class="text-white text-[52px] font-black">changemaker?</p>
+            <a
+              class="mt-[20px] w-[262px] h-[62px] bg-[#22366a] text-white grid place-items-center font-black text-2xl"
+            >
+              APPLY NOW
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="down-arrow-div" class="absolute -bottom-4 left-1/2 ">
+          <a href="#eligibility"><span class="material-icons align-middle w-20 text-white font-thin text-6xl cursor-pointer">
+            expand_more
+        </span></a>
+            
+        </div>
+    </div>
+
+    <section class="content page-container">
+      <div  id="eligibility" class="eligibility-criteria-div mt-[80px]">
+        <div
+          class="eligibility-criteria-heading text-[56px] text-[#22366a] font-black leading-[62px] tracking-tight mb-[15px]"
+        >
+          eligibility criteria
+        </div>
+        <div class="eligibility-criteria-content text-[#818CA9]">
+          <ol class="list-decimal ml-[22px]">
+            <li>
+              candidate must have completed their graduation with a minimum of
+              50% marks (45% for sc/st category) or an equivalent cgpa in any
+              discipline from a recognized university.
+            </li>
+            <li>
+              candidates currently in their final year of graduation can also
+              apply. in that case, the admission offered will be provisional
+              till the time graduation documents are not received.
+            </li>
+            <li>
+              candidates must have appeared in any one of the following entrance
+              exams - cat, mat, cmat, atma,xat, gmat and state entrances.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="admission-process-div mt-[80px]">
+        <div
+          class="admission-process-heading text-[56px] text-[#22366a] font-black leading-[62px] tracking-tight mb-[15px]"
+        >
+          admission process
+        </div>
+        <div class="admission-process-content text-[#818CA9]">
+          <div class="admission-process-content1">
+            since this is a post-graduate program, a candidate needs to be a
+            graduate already or completing their graduation by the end of the
+            current academic year from a ugc or aicte recognised university or
+            college.
+          </div>
+          <ol class="list-decimal ml-[22px]">
+            <li style="font-weight: 900" class="my-[10px]">
+              submit application form
+            </li>
+            <div>
+              the candidate can visit our website (https://sunstone.edu.in) and
+              fill out the application form by clicking on the “apply now”
+              button. the candidate needs to submit the required details along
+              with supporting documents which are class 10th marksheet, class
+              12th marksheet, graduation certificate, graduation marksheet and a
+              valid government photo id proof.
+            </div>
+            <li style="font-weight: 900" class="my-[10px]">
+              appear for admission test
+            </li>
+            <div>
+              after filling out the application form, you are required to appear
+              for the sunstone eduversity admissions test by scheduling the
+              same. the s.e.a.t is an online test designed to assess your
+              general aptitude, verbal ability and psychometric profile.
+            </div>
+            <li style="font-weight: 900" class="my-[10px]">
+              personal interview
+            </li>
+            <div>
+              based on the s.e.a.t. scores and your profile, a personal
+              interview shall be arranged. during the interview, your soft
+              skills, aptitude and grit will be assessed, along with your
+              motivation to pursue a management degree.
+            </div>
+            <li style="font-weight: 900" class="my-[10px]">
+              application review
+            </li>
+            <div>
+              your complete profile will now be reviewed by the admissions
+              committee. the decision of your application acceptance/rejection
+              will be communicated to you over the registered email address and
+              the postal address provided.
+            </div>
+            <li style="font-weight: 900" class="my-[10px]">admission status</li>
+            <div>
+              candidates will be required to accept the admission offer and
+              confirm their seat within the given timeline by completing the
+              steps mentioned in the offer letter.
+            </div>
+          </ol>
+        </div>
+      </div>
+      <div class="contact text-[#818CA9] text-[22px] font-bold">
+        For any query during the process, you can email us at
+        admissions@sunstone.edu.in or call us at 7065303030.
+      </div>
+    </section>
+
+    
+  </body>
+</html>

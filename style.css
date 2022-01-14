@@ -1,0 +1,53 @@
+
+
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#popup{
+    display:none;
+    box-shadow: 0 4px 20px rgb(0 ,0 ,0 , 0.1);
+}
+
+#explore:hover+#popup{
+    display:block;
+    
+}
+
+#popup:hover{
+    display:block;
+    
+}
+
+#mba-popup{
+    display:none;
+    box-shadow: 0 4px 20px rgb(0 ,0 ,0 , 0.1);
+}
+
+#mba:hover #mba-popup{
+    display:block;
+}
+
+#pgdm-popup{
+    display:none;
+    box-shadow: 0 4px 20px rgb(0 ,0 ,0 , 0.1);
+}
+
+#pgdm:hover #pgdm-popup{
+    display:block;
+}
+
+@media only screen and ( max-width:600px) {
+    #desktop-nav{
+        display:none;
+    }
+
+}
+    
